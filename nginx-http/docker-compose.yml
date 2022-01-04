@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  # nginx
+  nginx:
+    container_name: nginix-http-server
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/log:/home/dev/logs/
+      - ./html:/home/dev/www/
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
