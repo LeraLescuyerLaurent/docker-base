@@ -1,0 +1,10 @@
+services:
+
+  nginx:
+    container_name: nginix-server-https
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./html:/usr/share/nginx/html
