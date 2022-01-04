@@ -8,5 +8,6 @@ services:
     ports:
       - "80:80"
     volumes:
-      - /nginx/log:/var/log/nginx
-      - /html:/usr/share/nginx/html
+      - ./nginx/log:/home/dev/logs/
+      - ./html:/home/dev/www/
+      - ./nginx/conf.d/:/etc/nginx/conf.d/

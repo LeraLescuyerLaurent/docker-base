@@ -4,3 +4,5 @@ folderico-red.ico
 metago_bookmarks.json
 .vsode/
 
+nginx-http/nginx/log/acess.log
+nginx-http/nginx/log/error.log
