@@ -7,3 +7,6 @@ services:
     image: nginx
     ports:
       - "80:80"
+    volumes:
+      - /var/log/nginx:/var/log/nginx
+      - /html:/usr/share/nginx/html
