@@ -8,5 +8,5 @@ services:
     ports:
       - "80:80"
     volumes:
-      - /var/log/nginx:/var/log/nginx
+      - /nginx/log:/var/log/nginx
       - /html:/usr/share/nginx/html
