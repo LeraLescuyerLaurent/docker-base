@@ -6,3 +6,5 @@ metago_bookmarks.json
 
 nginx-http/nginx/log/acess.log
 nginx-http/nginx/log/error.log
+nginx-https/nginx/log/acess.log
+nginx-https/nginx/log/error.log
